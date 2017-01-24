@@ -5,15 +5,15 @@ function audio_assets() {
     if (is_attachment()):
 
    wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css', array(), '', 'all' );
-    wp_enqueue_style( 'waves-css', get_template_directory_uri() . '/vendor/audios-rp/css/waves.css', array(), '0.7.4', 'all' );
-    wp_enqueue_style( 'fontello',  get_template_directory_uri() . '/vendor/audios-rp/css/fontello.css', array(), '', 'all' );
-    wp_enqueue_style( 'modal-css', get_template_directory_uri() . '/vendor/audios-rp/css/modal.css', array(), '', 'all' );
-    wp_enqueue_style( 'all-audio-css', get_template_directory_uri() . '/vendor/audios-rp/css/all.css', array(), '1.0', 'all' );
+    wp_enqueue_style( 'waves-css', get_template_directory_uri() . '/audios-rp/css/waves.css', array(), '0.7.4', 'all' );
+    wp_enqueue_style( 'fontello',  get_template_directory_uri() . '/audios-rp/css/fontello.css', array(), '', 'all' );
+    wp_enqueue_style( 'modal-css', get_template_directory_uri() . '/audios-rp/css/modal.css', array(), '', 'all' );
+    wp_enqueue_style( 'all-audio-css', get_template_directory_uri() . '/audios-rp/css/all.css', array(), '1.0', 'all' );
 
     wp_enqueue_script( 'audio-jquery', 'https://code.jquery.com/jquery-2.1.1.min.js', array(), '2.1.1', true );
     wp_enqueue_script( 'osom', 'https://use.fontawesome.com/1d0e62d4e0.js', array(), '4.6.3', true );
-    wp_enqueue_script( 'waves', get_template_directory_uri() . '/vendor/audios-rp/js/waves.js', array(), '', true );
-    wp_enqueue_script( 'audio-js', get_template_directory_uri() . '/vendor/audios-rp/js/all.js', array(), '', true );
+    wp_enqueue_script( 'waves', get_template_directory_uri() . '/audios-rp/js/waves.js', array(), '', true );
+    wp_enqueue_script( 'audio-js', get_template_directory_uri() . '/audios-rp/js/all.js', array(), '', true );
 
    endif;
 
